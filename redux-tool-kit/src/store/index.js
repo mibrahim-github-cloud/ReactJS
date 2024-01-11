@@ -23,15 +23,16 @@ const store = configureStore({
     }
 });
 
+/** Action creators */
+//console.log(songsSlice.actions.addSong("Somed Songs"));
 
 /** Debugging code */
 // const startingState = store.getState();
 // console.log(JSON.stringify(startingState));
 
-// store.dispatch({
-//     type: 'song/addSong',
-//     payload: 'New Song!!!'
-// });
+//  store.dispatch(songsSlice.actions.addSong("Some songs!!!"));
 
-// const finalState = store.getState();
-// console.log(JSON.stringify(finalState));
+//  const finalState = store.getState();
+//  console.log(JSON.stringify(finalState));
+
+export { store };
